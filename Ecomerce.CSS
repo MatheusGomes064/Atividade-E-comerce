@@ -1,0 +1,150 @@
+
+
+body{
+ background-color: gray;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    box-shadow: 0px 0px 10px 0px #585E65;
+}
+
+header h1 {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* header nav {
+
+} */
+
+header nav ul.navLinks {
+    background-color: white;
+    list-style: none;
+    padding: 0px 300px 0px 0px;
+}
+
+header nav ul.navLinks li {
+    background-color: white;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+header nav ul.navLinks li a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #585E65;
+    text-decoration: none;
+    background-color: white;
+    transition: all 0.3s ease 0s;
+}
+
+header nav ul.navLinks li a:hover {
+    color: blue;
+}
+
+header a.cta button {
+    border: 1px solid #4C6EF5;
+    padding: 9px 25px;
+    background-color: #4C6EF5;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header a.cta button:hover {
+    background-color: blue;
+}
+
+/*Corpo*/
+
+/* main.container {
+
+} */
+
+main.container ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;  
+}
+
+main.container ul li.box {
+    list-style: none;
+    width: 374px;
+    height: 500PX;
+    background: white;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 30px; 
+}
+
+main.container ul li.box img {
+    display: flex;
+    justify-content: space-between;
+}
+
+main.container ul li.box h2 {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+main.container ul li.box p.preco {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* main.container ul li.box a.cta {
+
+} */
+
+main.container ul li.box a.cta button {
+    width: 100%;
+    margin-top: 100px;
+    border: 1px solid #4C6EF5;
+    padding: 9px 25px;
+    background-color: #4C6EF5;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main.container ul li.box a.cta button:hover {
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+    
+
+
+
+  
+
+
